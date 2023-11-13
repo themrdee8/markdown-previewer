@@ -1,0 +1,34 @@
+.boxes-container {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 50px;
+    width: 80%
+}
+
+#editor {
+    width: 80%;
+    height: 50vh;
+    padding: 20px;
+    font-size: 15px;
+    font-family: Verdana, Tahoma, sans-serif;
+    background-color: #5f7f98;
+    color: #fff;
+    overflow: auto;
+    border-radius: 15px;
+}
+
+#preview {
+    width: 100%;
+    height: 80vh;
+    border-radius: 12px;
+    background-color: #5f7f98;
+    margin-top: 15px;
+    font-family: Verdana, Tahoma, sans-serif;
+    overflow: auto;
+    padding: 10px;
+}
+
+img {
+    max-width: 100%;
+}
